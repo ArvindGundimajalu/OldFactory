@@ -5,7 +5,7 @@ namespace OldFactory.Factory;
 
 public class ObjectFactory : IFactory
 {
-    IDictionary<Type, Type> _registery ;
+    private IDictionary<Type, Type> _registery ;
 
     private IFactory _parent;
 
